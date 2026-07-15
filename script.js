@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const sendBtn = document.getElementById("send-btn");
 
     // === NGROK URL ===
-    const NGROK_URL = "https://oxidation-cogwheel-opposing.ngrok-free.app/chat"; 
+    const NGROK_URL = "https://oxidation-cogwheel-opposing.ngrok-free.dev/chat";
 
     async function sendMessage() {
         const text = chatInput.value.trim();
